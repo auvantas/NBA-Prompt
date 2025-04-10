@@ -1,7 +1,8 @@
+**Prompt V2**
 
 **Prompt 2: NBA Player Predictions with Integrated Game Prediction Refinement & Injury Diagnosis Impact**
 
-**Objective:** To first systematically identify all potentially available players for a specified upcoming NBA game, incorporating injury details; then use that confirmed player pool and injury context to re-evaluate and finalize the overall game prediction derived from Prompt 1; and finally predict the MIN/MAX statistical range (Points, Rebounds, Assists, Threes) for confirmed available players, specifically adjusting for injury impacts on skill focus based on the finalized game context.
+**Objective:** Using the system time To first systematically identify all potentially available players for a specified next upcoming NBA game, incorporating injury details; then use that confirmed player pool and injury context to re-evaluate and finalize the overall game prediction derived from Prompt 1; and finally predict the MIN/MAX statistical range (Points, Rebounds, Assists, Threes) for confirmed available players, specifically adjusting for injury impacts on skill focus based on the finalized game context.
 
 **Prerequisites:**
 *   Requires Game Prediction Context: This prompt must be run after completing the "NBA Game Prediction" prompt (Prompt 1). It relies heavily on the initial outputs (Predicted Winner, Spread, O/U, Score) and the conceptual scratchpad data gathered during that process.
@@ -72,5 +73,3 @@
         | [Player B] | [Tm] | Starter | GTD (Likely In) | Ankle Sprain | 12+ to 22 | 2+ to 5 | 1+ to 4 | 2+ to 4 | *Injury Impact:* Ankle sprain likely limits drives/playmaking. Expect focus on perimeter shooting (primary skill). Reduced MIN/MAX for Reb/Ast due to limited mobility/penetration. Finalized game context suggests opponent may target his defense. MIN reflects limited effectiveness; MAX reflects efficient shooting night despite limitations. |
         | [Player C] | [Tm] | Key Bench | Active | Shoulder Soreness (Recent Return) | 6+ to 13 | 3+ to 6 | 0+ to 2 | 0+ to 1 | *Injury Impact:* Shoulder likely affects shooting consistency (primary offensive skill). MIN/MAX Pts/Threes lowered significantly. Reb/Ast less affected but capped by bench role/minutes. Justified by recent return logs showing lower shooting volume/efficiency and finalized game context. |
         | ... (Repeat only for players confirmed available and likely to play) ... | | | | | | | | | |
-
----
