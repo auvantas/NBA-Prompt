@@ -19,8 +19,8 @@
 
 
 **Key Changes in Prompt 2: V3.1: 21 APRIL 2025**
-- Floor MIN/MAX updted
+- Floor MIN/MAX updated
 - Confidence levels changed to ~70%
-- Defence and rotaion analysis weights changed
+- Defence and rotation analysis weights changed
   
   
